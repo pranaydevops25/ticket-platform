@@ -24,3 +24,5 @@ A POST without `title` returns status 400.
     docker run -p 3000:3000 ticket-platform:1.0
 
 Use `-e PORT=4000 -p 4000:4000` to run on another port.
+
+![CI](https://github.com/pranaydevops25/ticket-platform/actions/workflows/ci.yml/badge.svg)
