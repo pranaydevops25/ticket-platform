@@ -23,7 +23,7 @@ jobs:
         run: npm ci
 
       - name: Build TypeScript
-        run: npm run build
+        run: npm run buildd
 
       - name: Build Docker image
         run: docker build -t ticket-platform:ci .
