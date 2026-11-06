@@ -26,3 +26,10 @@ A POST without `title` returns status 400.
 Use `-e PORT=4000 -p 4000:4000` to run on another port.
 
 ![CI](https://github.com/pranaydevops25/ticket-platform/actions/workflows/ci.yml/badge.svg)
+
+## Smoke test
+
+`scripts/smoke-test.sh` checks that the API is alive (GET /health returns 200), creates a ticket (POST /tickets returns 201), and rejects a ticket without a title (POST /tickets returns 400). It exits with code 0 on success and 1 on failure. The CI pipeline runs it against the Docker container on every push and pull request.
+
+    ./scripts/smoke-test.sh                      # default: http://localhost:3000
+    ./scripts/smoke-test.sh http://localhost:4000
