@@ -37,3 +37,7 @@ Use `-e PORT=4000 -p 4000:4000` to run on another port.
 ## Troubleshooting
 
 See [docs/troubleshooting.md](docs/troubleshooting.md) for common problems and fixes.
+
+### Image improvements
+
+The Dockerfile uses a multi-stage build, runs the app as the non-root user `node`, and has a health check that calls `/health`. Measured with `docker images`: the single-stage image was 310MB on disk (82.8MB content size), and the multi-stage image is 246MB on disk (63.1MB content size).
