@@ -37,11 +37,3 @@ Use `-e PORT=4000 -p 4000:4000` to run on another port.
 ## Troubleshooting
 
 See [docs/troubleshooting.md](docs/troubleshooting.md) for common problems and fixes.
-
-## Troubleshooting
-
-See [docs/troubleshooting.md](docs/troubleshooting.md) for common problems and fixes.
-
-## Troubleshooting
-
-See [docs/troubleshooting.md](docs/troubleshooting.md) for common problems and fixes.
