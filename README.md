@@ -41,3 +41,7 @@ See [docs/troubleshooting.md](docs/troubleshooting.md) for common problems and f
 ## Troubleshooting
 
 See [docs/troubleshooting.md](docs/troubleshooting.md) for common problems and fixes.
+
+## Troubleshooting
+
+See [docs/troubleshooting.md](docs/troubleshooting.md) for common problems and fixes.
