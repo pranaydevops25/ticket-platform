@@ -33,3 +33,11 @@ Use `-e PORT=4000 -p 4000:4000` to run on another port.
 
     ./scripts/smoke-test.sh                      # default: http://localhost:3000
     ./scripts/smoke-test.sh http://localhost:4000
+
+## Troubleshooting
+
+See [docs/troubleshooting.md](docs/troubleshooting.md) for common problems and fixes.
+
+## Troubleshooting
+
+See [docs/troubleshooting.md](docs/troubleshooting.md) for common problems and fixes.
